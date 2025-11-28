@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الرجل الأنيق - تسوق أحدث المنتجات الرجالية أونلاين</title>
+    <meta name="description" content="متجر الرجل الأنيق - تسوق أحدث المنتجات الرجالية من عطور، إلكترونيات، ساعات، شماغ وملابس بأفضل الأسعار في اليمن. خدمة توصيل سريعة وضمان الجودة.">
+    <meta name="keywords" content="متجر رجالي, تسوق أونلاين, عطور رجالية, ساعات رجالية, إلكترونيات, شماغ, ملابس رجالية, اليمن, صنعاء">
+    <meta name="author" content="متجر الرجل الأنيق">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="متجر الرجل الأنيق - تسوق أحدث المنتجات الرجالية">
+    <meta property="og:description" content="اكتشف أحدث المنتجات الرجالية بأفضل الأسعار في متجر الرجل الأنيق">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alrajolalaneeq.com">
+    <meta property="og:image" content="https://alrajolalaneeq.com/logo.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://alrajolalaneeq.com">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "متجر الرجل الأنيق",
+        "description": "متجر متخصص في المنتجات الرجالية الأنيقة والعصرية",
+        "url": "https://alrajolalaneeq.com",
+        "telephone": "+967712433463",
+        "email": "mazenalsharq22@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "اليمن",
+            "addressLocality": "صنعاء"
+        },
+        "openingHours": "Mo-Su 09:00-24:00",
+        "priceRange": "$$",
+        "image": "https://alrajolalaneeq.com/logo.png"
+    }
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #4361ee;
+            --secondary: #3a0ca3;
+            --accent: #f72585;
+            --success: #4cc9f0;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --shadow: 0 10px 20px rgba(0,0,0,0.1);
+            --radius: 16px;
+            --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+            color: var(--dark);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 20px 0;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .logo i {
+            font-size: 32px;
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 50px;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(67, 97, 238, 0.9), rgba(58, 12, 163, 0.9)), url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            margin-bottom: 60px;
+            border-radius: 0 0 var(--radius) var(--radius);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .section-title h2 {
+            font-size: 36px;
+            color: var(--secondary);
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 4px;
+            background: var(--accent);
+            bottom: 0;
+            right: 50%;
+            transform: translateX(50%);
+            border-radius: 2px;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--accent);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            z-index: 2;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .product-card:hover .product-image {
+            transform: scale(1.05);
+        }
+
+        .product-content {
+            padding: 20px;
+        }
+
+        .product-category {
+            color: var(--primary);
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .product-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+
+        .product-description {
+            color: var(--gray);
+            margin-bottom: 15px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .product-price {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+
+        .product-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 50px;
+            font-family: 'Cairo', sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            flex: 1;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--secondary);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(67, 97, 238, 0.4);
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-outline:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        .filters {
+            background: white;
+            padding: 25px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            margin-bottom: 40px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+        }
+
+        .search-box i {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--gray);
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 15px 45px 15px 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 50px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+        }
+
+        .filter-select {
+            min-width: 200px;
+        }
+
+        .filter-select select {
+            width: 100%;
+            padding: 15px 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 50px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+            background: white;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .filter-select select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        footer {
+            background: linear-gradient(135deg, var(--secondary), var(--dark));
+            color: white;
+            padding: 60px 0 30px;
+            margin-top: 80px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-column h3 {
+            font-size: 22px;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--accent);
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: #adb5bd;
+            text-decoration: none;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer-links a:hover {
+            color: white;
+            transform: translateX(-5px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #adb5bd;
+            font-size: 15px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: var(--radius);
+            padding: 30px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: var(--shadow);
+            animation: slideUp 0.3s ease-out;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .modal-title {
+            font-size: 22px;
+            color: var(--secondary);
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--gray);
+            transition: var(--transition);
+        }
+
+        .close-btn:hover {
+            color: var(--accent);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e9ecef;
+            border-radius: var(--radius);
+            font-family: 'Cairo', sans-serif;
+            font-size: 16px;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+        }
+
+        .product-preview {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: var(--radius);
+        }
+
+        .product-preview img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: var(--radius);
+        }
+
+        .product-preview-info h4 {
+            margin-bottom: 5px;
+            color: var(--secondary);
+        }
+
+        .product-preview-info p {
+            color: var(--gray);
+            font-size: 14px;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .loading-spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid var(--primary);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 2s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .breadcrumb {
+            background: white;
+            padding: 15px 25px;
+            border-radius: var(--radius);
+            margin-bottom: 30px;
+            box-shadow: var(--shadow);
+        }
+
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 992px) {
+            .nav-links {
+                gap: 15px;
+            }
+            .nav-link {
+                font-size: 16px;
+                padding: 8px 15px;
+            }
+            .hero h1 {
+                font-size: 36px;
+            }
+            .hero p {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+            .nav-links {
+                width: 100%;
+                justify-content: center;
+            }
+            .products-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+            .filters {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .search-box {
+                min-width: auto;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .nav-links {
+                flex-wrap: wrap;
+            }
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+            .hero {
+                padding: 60px 0;
+            }
+            .hero h1 {
+                font-size: 28px;
+            }
+            .hero p {
+                font-size: 16px;
+            }
+            .product-actions {
+                flex-direction: column;
+            }
+            .product-preview {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-store"></i>
+                    <span>متجر الرجل الأنيق</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active"><i class="fas fa-home"></i> الرئيسية</a>
+                    <a href="#products" class="nav-link"><i class="fas fa-box-open"></i> المنتجات</a>
+                    <a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> عن المتجر</a>
+                    <a href="#contact" class="nav-link"><i class="fas fa-phone"></i> اتصل بنا</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="#home">الرئيسية</a> / <span>منتجاتنا</span>
+        </div>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>متجر الرجل الأنيق - تسوق بثقة وأناقة</h1>
+            <p>اكتشف أحدث المنتجات الرجالية من عطور، إلكترونيات، ساعات وملابس بأفضل الأسعار في اليمن</p>
+            <a href="#products" class="btn btn-primary" style="padding: 15px 40px; font-size: 18px;">
+                <i class="fas fa-shopping-bag"></i> تسوق الآن
+            </a>
+        </div>
+    </section>
+
+    <section class="container" id="products">
+        <div class="section-title">
+            <h2>منتجاتنا المميزة</h2>
+        </div>
+
+        <div class="filters">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="ابحث عن منتج..." onkeyup="filterProducts()">
+            </div>
+            <div class="filter-select">
+                <select id="categoryFilter" onchange="filterProducts()">
+                    <option value="">جميع الفئات</option>
+                    <option value="إلكترونيات">إلكترونيات</option>
+                    <option value="عطور">عطور</option>
+                    <option value="شماغ">شماغ</option>
+                    <option value="ساعات">ساعات</option>
+                    <option value="ملابس">ملابس</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="products-grid" id="productsContainer">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="container" id="about" style="margin-top: 80px;">
+        <div class="section-title">
+            <h2>عن متجر الرجل الأنيق</h2>
+        </div>
+        <div style="background: white; padding: 40px; border-radius: var(--radius); box-shadow: var(--shadow); text-align: center;">
+            <h3 style="color: var(--secondary); margin-bottom: 20px;">لماذا تختار متجر الرجل الأنيق؟</h3>
+            <p style="font-size: 18px; line-height: 1.8; color: var(--gray); max-width: 800px; margin: 0 auto;">
+                متجر الرجل الأنيق هو وجهتك الأولى للتسوق الإلكتروني في اليمن. نقدم لك أحدث المنتجات الرجالية 
+                بأعلى جودة وأسعار منافسة. نحن نضمن لك تجربة تسوق آمنة وسهلة مع خدمة عملاء متميزة على مدار الساعة.
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin-top: 40px;">
+                <div style="text-align: center;">
+                    <i class="fas fa-shipping-fast" style="font-size: 40px; color: var(--primary); margin-bottom: 15px;"></i>
+                    <h4 style="color: var(--secondary);">توصيل سريع</h4>
+                    <p style="color: var(--gray);">توصيل لجميع أنحاء اليمن</p>
+                </div>
+                <div style="text-align: center;">
+                    <i class="fas fa-shield-alt" style="font-size: 40px; color: var(--primary); margin-bottom: 15px;"></i>
+                    <h4 style="color: var(--secondary);">ضمان الجودة</h4>
+                    <p style="color: var(--gray);">منتجات أصلية وموثوقة</p>
+                </div>
+                <div style="text-align: center;">
+                    <i class="fas fa-headset" style="font-size: 40px; color: var(--primary); margin-bottom: 15px;"></i>
+                    <h4 style="color: var(--secondary);">دعم فني</h4>
+                    <p style="color: var(--gray);">خدمة عملاء 24/7</p>
+                </div>
+                <div style="text-align: center;">
+                    <i class="fas fa-undo" style="font-size: 40px; color: var(--primary); margin-bottom: 15px;"></i>
+                    <h4 style="color: var(--secondary);">إرجاع سهل</h4>
+                    <p style="color: var(--gray);">سياسة إرجاع مرنة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- نافذة حجز المنتج -->
+    <div class="modal" id="reservationModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">حجز المنتج</h3>
+                <button class="close-btn" onclick="closeReservationModal()">&times;</button>
+            </div>
+            
+            <div id="productPreview" class="product-preview">
+                <!-- سيتم تعبئة معاينة المنتج هنا -->
+            </div>
+            
+            <form id="reservationForm">
+                <input type="hidden" id="reservationProductId">
+                <div class="form-group">
+                    <label for="customerName">اسمك الكريم</label>
+                    <input type="text" id="customerName" class="form-control" placeholder="أدخل اسمك" required>
+                </div>
+                <div class="form-group">
+                    <label for="customerPhone">رقم هاتفك</label>
+                    <input type="tel" id="customerPhone" class="form-control" placeholder="أدخل رقم هاتفك" required>
+                </div>
+                <div class="form-group">
+                    <label for="reservationNotes">ملاحظات إضافية (اختياري)</label>
+                    <textarea id="reservationNotes" class="form-control" rows="3" placeholder="أي ملاحظات إضافية"></textarea>
+                </div>
+                <div class="product-actions">
+                    <button type="submit" class="btn btn-success" id="submitBtn">
+                        <i class="fas fa-calendar-check"></i> تأكيد الحجز وإرسال الصورة
+                    </button>
+                    <button type="button" class="btn btn-outline" onclick="closeReservationModal()">
+                        <i class="fas fa-times"></i> إلغاء
+                    </button>
+                </div>
+            </form>
+            
+            <div class="loading" id="loadingIndicator">
+                <div class="loading-spinner"></div>
+                <p>جاري إعداد طلب الحجز وإرسال الصورة...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>عن المتجر</h3>
+                    <p>متجر الرجل الأنيق متكامل يقدم أفضل المنتجات الرجالية بأعلى جودة وأسعار منافسة مع خدمة عملاء متميزة.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-left"></i> الرئيسية</a></li>
+                        <li><a href="#products"><i class="fas fa-chevron-left"></i> المنتجات</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-left"></i> عن المتجر</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-left"></i> اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>معلومات الاتصال</h3>
+                    <ul class="footer-links">
+                        <li><a href="tel:+967712433463"><i class="fas fa-phone"></i> 712433463</a></li>
+                        <li><a href="mailto:mazenalsharq22@gmail.com"><i class="fas fa-envelope"></i> mazenalsharq22@gmail.com</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> اليمن - صنعاء</a></li>
+                        <li><a href="#"><i class="fas fa-clock"></i> من 9 صباحاً إلى 12 مساءً</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>تم برمجة الموقع بواسطة <strong>مازن عبد المعز</strong> - للتواصل: 712433463</p>
+                <p>جميع الحقوق محفوظة &copy; 2025 متجر الرجل الأنيق</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let products = JSON.parse(localStorage.getItem("storeProducts")) || [];
+        let reservations = JSON.parse(localStorage.getItem("storeReservations")) || [];
+        let updateInterval;
+        let currentProduct = null;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            renderProducts();
+            startAutoUpdate();
+            
+            if (products.length === 0) {
+                addDefaultProducts();
+            }
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            window.addEventListener('scroll', function() {
+                let current = '';
+                const sections = document.querySelectorAll('section');
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - 200)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+            
+            // إعداد نموذج الحجز
+            document.getElementById('reservationForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                submitReservation();
+            });
+        });
+
+        function startAutoUpdate() {
+            updateInterval = setInterval(function() {
+                const updatedProducts = JSON.parse(localStorage.getItem("storeProducts")) || [];
+                if (JSON.stringify(updatedProducts) !== JSON.stringify(products)) {
+                    products = updatedProducts;
+                    renderProducts();
+                }
+            }, 1000);
+        }
+
+        function addDefaultProducts() {
+            const defaultProducts = [
+                {
+                    id: 1,
+                    name: "هاتف ذكي متطور",
+                    description: "هاتف ذكي بمواصفات عالية وكاميرا متقدمة مع شاشة عرض فائزة الجودة",
+                    price: 2499,
+                    category: "إلكترونيات",
+                    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+                    featured: true
+                },
+                {
+                    id: 2,
+                    name: "عطر رجالي فاخر",
+                    description: "عطر رجالي برائحة مميزة تدوم طويلاً مع تصميم أنيق للزجاجة",
+                    price: 350,
+                    category: "عطور",
+                    image: "https://images.unsplash.com/photo-1541643600914-78b084683601",
+                    featured: false
+                },
+                {
+                    id: 3,
+                    name: "ساعة ذكية رياضية",
+                    description: "ساعة ذكية بتقنيات متطورة وتتبع للصحة واللياقة البدنية مع مقاومة للماء",
+                    price: 899,
+                    category: "ساعات",
+                    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+                    featured: true
+                },
+                {
+                    id: 4,
+                    name: "شماغ قطني كلاسيك",
+                    description: "شماغ قطني عالي الجودة بتصميم كلاسيكي وأنيق للرجل العصري",
+                    price: 120,
+                    category: "شماغ",
+                    image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+                    featured: false
+                },
+                {
+                    id: 5,
+                    name: "سماعات لاسلكية",
+                    description: "سماعات لاسلكية بتقنية إلغاء الضوضاء وجودة صوت استثنائية",
+                    price: 650,
+                    category: "إلكترونيات",
+                    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+                    featured: true
+                },
+                {
+                    id: 6,
+                    name: "ساعة يد فاخرة",
+                    description: "ساعة يد رجالية فاخرة مصنوعة من الفولاذ المقاوم للصدأ بتصميم عصري",
+                    price: 280,
+                    category: "ساعات",
+                    image: "https://images.unsplash.com/photo-1523170335258-f5ed11844a49",
+                    featured: false
+                }
+            ];
+            
+            products = defaultProducts;
+            localStorage.setItem("storeProducts", JSON.stringify(products));
+            renderProducts();
+        }
+
+        function renderProducts() {
+            const productsContainer = document.getElementById('productsContainer');
+            productsContainer.innerHTML = '';
+            
+            if (products.length === 0) {
+                productsContainer.innerHTML = `
+                    <div style="grid-column: 1/-1; text-align: center; padding: 60px 20px;">
+                        <i class="fas fa-box-open" style="font-size: 80px; color: #ddd; margin-bottom: 20px;"></i>
+                        <h3 style="color: var(--gray); margin-bottom: 15px;">لا توجد منتجات حالياً</h3>
+                        <p style="color: var(--gray);">سيتم إضافة المنتجات قريباً</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            products.forEach(product => {
+                const productCard = document.createElement('div');
+                productCard.className = 'product-card';
+                
+                productCard.innerHTML = `
+                    ${product.featured ? '<span class="product-badge">مميز</span>' : ''}
+                    <img src="${product.image}" alt="${product.name}" class="product-image">
+                    <div class="product-content">
+                        <span class="product-category">${product.category}</span>
+                        <h3 class="product-title">${product.name}</h3>
+                        <p class="product-description">${product.description}</p>
+                        <div class="product-price">${product.price} ريال</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary" onclick="openReservationModal(${product.id})">
+                                <i class="fas fa-calendar-alt"></i> حجز المنتج
+                            </button>
+                        </div>
+                    </div>
+                `;
+                
+                productsContainer.appendChild(productCard);
+            });
+        }
+
+        function filterProducts() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+            
+            const filteredProducts = products.filter(product => {
+                const matchesSearch = product.name.toLowerCase().includes(searchTerm) || 
+                                     product.description.toLowerCase().includes(searchTerm);
+                const matchesCategory = category === "" || product.category === category;
+                
+                return matchesSearch && matchesCategory;
+            });
+            
+            const productsContainer = document.getElementById('productsContainer');
+            productsContainer.innerHTML = '';
+            
+            if (filteredProducts.length === 0) {
+                productsContainer.innerHTML = `
+                    <div style="grid-column: 1/-1; text-align: center; padding: 60px 20px;">
+                        <i class="fas fa-search" style="font-size: 80px; color: #ddd; margin-bottom: 20px;"></i>
+                        <h3 style="color: var(--gray); margin-bottom: 15px;">لا توجد نتائج</h3>
+                        <p style="color: var(--gray);">جرب مصطلحات بحث أخرى أو فئة مختلفة</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            filteredProducts.forEach(product => {
+                const productCard = document.createElement('div');
+                productCard.className = 'product-card';
+                
+                productCard.innerHTML = `
+                    ${product.featured ? '<span class="product-badge">مميز</span>' : ''}
+                    <img src="${product.image}" alt="${product.name}" class="product-image">
+                    <div class="product-content">
+                        <span class="product-category">${product.category}</span>
+                        <h3 class="product-title">${product.name}</h3>
+                        <p class="product-description">${product.description}</p>
+                        <div class="product-price">${product.price} ريال</div>
+                        <div class="product-actions">
+                            <button class="btn btn-primary" onclick="openReservationModal(${product.id})">
+                                <i class="fas fa-calendar-alt"></i> حجز المنتج
+                            </button>
+                        </div>
+                    </div>
+                `;
+                
+                productsContainer.appendChild(productCard);
+            });
+        }
+
+        function openReservationModal(productId) {
+            currentProduct = products.find(p => p.id === productId);
+            if (!currentProduct) return;
+            
+            document.getElementById('reservationProductId').value = productId;
+            
+            // عرض معاينة المنتج
+            const productPreview = document.getElementById('productPreview');
+            productPreview.innerHTML = `
+                <img src="${currentProduct.image}" alt="${currentProduct.name}">
+                <div class="product-preview-info">
+                    <h4>${currentProduct.name}</h4>
+                    <p>${currentProduct.category} - ${currentProduct.price} ريال</p>
+                </div>
+            `;
+            
+            document.getElementById('reservationModal').style.display = 'flex';
+        }
+
+        function closeReservationModal() {
+            document.getElementById('reservationModal').style.display = 'none';
+            document.getElementById('reservationForm').reset();
+            currentProduct = null;
+        }
+
+        function submitReservation() {
+            const productId = parseInt(document.getElementById('reservationProductId').value);
+            const customerName = document.getElementById('customerName').value;
+            const customerPhone = document.getElementById('customerPhone').value;
+            const notes = document.getElementById('reservationNotes').value;
+            
+            const product = products.find(p => p.id === productId);
+            if (!product) {
+                alert('حدث خطأ في العثور على المنتج');
+                return;
+            }
+            
+            // إظهار مؤشر التحميل
+            document.getElementById('loadingIndicator').style.display = 'block';
+            document.getElementById('submitBtn').disabled = true;
+            
+            const reservation = {
+                id: Date.now(),
+                productId: productId,
+                productName: product.name,
+                productImage: product.image,
+                customerName: customerName,
+                phone: customerPhone,
+                notes: notes,
+                date: new Date().toISOString(),
+                status: 'pending'
+            };
+            
+            reservations.push(reservation);
+            localStorage.setItem("storeReservations", JSON.stringify(reservations));
+            
+            // إرسال رسالة واتساب مع صورة المنتج
+            sendWhatsAppMessageWithImage(reservation, product);
+        }
+
+        function sendWhatsAppMessageWithImage(reservation, product) {
+            const ownerPhone = "967712433463"; // الرقم بدون +
+            
+            // إنشاء رسالة مفصلة
+            const message = `🛍️ *طلب حجز منتج جديد* 🛍️
+
+📦 *تفاصيل المنتج:*
+🏷️ *المنتج:* ${product.name}
+💰 *السعر:* ${product.price} ريال
+📂 *الفئة:* ${product.category}
+📝 *الوصف:* ${product.description}
+
+👤 *معلومات العميل:*
+*الاسم:* ${reservation.customerName}
+📞 *الهاتف:* ${reservation.phone}
+📋 *الملاحظات:* ${reservation.notes || 'لا توجد ملاحظات'}
+
+⏰ *وقت الطلب:* ${new Date().toLocaleString('ar-SA')}
+
+🎯 *ملاحظة:*
+يرجى التواصل مع العميل لتأكيد الحجز.`;
+
+            // إنشاء رابط واتساب مع الرسالة
+            const whatsappUrl = `https://wa.me/${ownerPhone}?text=${encodeURIComponent(message)}`;
+            
+            // فتح نافذة واتساب
+            window.open(whatsappUrl, '_blank');
+            
+            // بعد ثانيتين، فتح نافذة جديدة مع صورة المنتج
+            setTimeout(() => {
+                // إنشاء نافذة جديدة لعرض صورة المنتج
+                const imageWindow = window.open('', '_blank');
+                imageWindow.document.write(`
+                    <!DOCTYPE html>
+                    <html dir="rtl">
+                    <head>
+                        <title>صورة المنتج - ${product.name}</title>
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <style>
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                            }
+                            body {
+                                font-family: 'Arial', sans-serif;
+                                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                min-height: 100vh;
+                                padding: 20px;
+                            }
+                            .container {
+                                background: white;
+                                border-radius: 20px;
+                                padding: 30px;
+                                box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+                                text-align: center;
+                                max-width: 400px;
+                                width: 100%;
+                            }
+                            .product-image {
+                                width: 100%;
+                                max-width: 300px;
+                                height: auto;
+                                border-radius: 15px;
+                                margin-bottom: 20px;
+                                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+                            }
+                            .product-info {
+                                margin-bottom: 25px;
+                            }
+                            .product-name {
+                                font-size: 24px;
+                                color: #333;
+                                margin-bottom: 10px;
+                                font-weight: bold;
+                            }
+                            .product-price {
+                                font-size: 20px;
+                                color: #28a745;
+                                font-weight: bold;
+                                margin-bottom: 5px;
+                            }
+                            .product-category {
+                                color: #666;
+                                font-size: 16px;
+                            }
+                            .instructions {
+                                background: #f8f9fa;
+                                padding: 20px;
+                                border-radius: 10px;
+                                border-right: 4px solid #4361ee;
+                                text-align: right;
+                            }
+                            .instructions h3 {
+                                color: #4361ee;
+                                margin-bottom: 15px;
+                                font-size: 18px;
+                            }
+                            .instructions ol {
+                                text-align: right;
+                                padding-right: 20px;
+                            }
+                            .instructions li {
+                                margin-bottom: 10px;
+                                color: #555;
+                            }
+                            .highlight {
+                                background: #fff3cd;
+                                padding: 15px;
+                                border-radius: 8px;
+                                margin-top: 15px;
+                                border: 1px solid #ffeaa7;
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <div class="container">
+                            <div class="product-info">
+                                <img src="${product.image}" alt="${product.name}" class="product-image">
+                                <h2 class="product-name">${product.name}</h2>
+                                <p class="product-price">${product.price} ريال</p>
+                                <p class="product-category">${product.category}</p>
+                            </div>
+                            
+                            <div class="instructions">
+                                <h3>📋 تعليمات إرسال الصورة:</h3>
+                                <ol>
+                                    <li>انقر بزر الماوس الأيمن على الصورة أعلاه</li>
+                                    <li>اختر "حفظ الصورة باسم"</li>
+                                    <li>احفظ الصورة على جهازك</li>
+                                    <li>ارجع إلى محادثة الواتساب</li>
+                                    <li>أرفق الصورة المحفوظة في الرسالة</li>
+                                </ol>
+                            </div>
+                            
+                            <div class="highlight">
+                                <strong>💡 نصيحة:</strong> يمكنك أيضاً سحب الصورة وإفلاتها مباشرة في محادثة الواتساب
+                            </div>
+                        </div>
+                    </body>
+                    </html>
+                `);
+            }, 2000);
+            
+            // إخفاء مؤشر التحميل وإعادة تمكين الزر
+            setTimeout(() => {
+                document.getElementById('loadingIndicator').style.display = 'none';
+                document.getElementById('submitBtn').disabled = false;
+                closeReservationModal();
+                alert('تم حجز المنتج بنجاح! يرجى إرسال صورة المنتج في محادثة الواتساب.');
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
